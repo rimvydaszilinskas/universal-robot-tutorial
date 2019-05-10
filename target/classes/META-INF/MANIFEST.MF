@@ -1,0 +1,24 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1557490620053
+Build-Jdk: 1.8.0_181
+Built-By: ur
+Bundle-Activator: com.rimvydas.LightUp.impl.Activator
+Bundle-Category: URCap
+Bundle-ContactAddress: 123 URCap Street
+Bundle-Copyright: Copyright notice (C)
+Bundle-Description: This is a description of the URCap
+Bundle-LicenseType: License type
+Bundle-ManifestVersion: 2
+Bundle-Name: LightUp
+Bundle-SymbolicName: com.rimvydas.LightUp
+Bundle-Vendor: URCaps R us Inc.
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: com.ur.urcap.api.contribution;version="[1.6.0,2.0.0)",co
+ m.ur.urcap.api.contribution.program;version="[1.6.0,2.0.0)",com.ur.urca
+ p.api.contribution.program.swing;version="[1.6.0,2.0.0)",com.ur.urcap.a
+ pi.domain;version="[1.6.0,2.0.0)",com.ur.urcap.api.domain.data;version=
+ "[1.6.0,2.0.0)",com.ur.urcap.api.domain.script;version="[1.6.0,2.0.0)",
+ com.ur.urcap.api.domain.undoredo;version="[1.6.0,2.0.0)",javax.swing,ja
+ vax.swing.event,org.osgi.framework;version="[1.6,2)"
+Tool: Bnd-2.1.0.20130426-122213

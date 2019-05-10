@@ -80,20 +80,19 @@ public class LightUpProgramNodeContribution implements ProgramNodeContribution{
 
 	@Override
 	public String getTitle() {
-		// TODO Auto-generated method stub
-		return null;
+		return "LightsUp: DO" + getOutput() + " t=" + getDuration();
 	}
 
 	@Override
 	public boolean isDefined() {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
 	public void generateScript(ScriptWriter writer) {
-		// TODO Auto-generated method stub
-		
+		writer.appendLine("set standard_digital_out(" + getOutput() + ", True)");
+		writer.sleep(getDuration());
+		writer.appendLine("set standard_digital_out(" + getOutput() + ", False)");
 	}
 
 }
